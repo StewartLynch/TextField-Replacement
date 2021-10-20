@@ -4,7 +4,7 @@
 
 ![TextInputView](Images/TextInputView.gif)
 
-In his excellent YouTube tutorial series on **Building SwiftUI Components**, Peter Friese (@PeterFriese) demonstrated how to create a custom TextField with floating label text.  
+In his excellent YouTube tutorial series on **Building SwiftUI Components**, Peter Friese (@peterfriese on Twitter) demonstrated how to create a custom TextField with floating label text.  
 
 See video at https://youtu.be/Sg0rfYL3utI
 
