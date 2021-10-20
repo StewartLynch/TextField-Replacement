@@ -40,6 +40,10 @@ TextInputView("Password", text: $password, isSecure: true)
 
 > **Note: **Do not use any textfieldStyle modifiers.  The TextInputField will always display a **roundedBorder** type of text input view.
 
+#### Sample Project
+
+Clone this repo if you want the example project used to create the gif.
+
 #### TextInputView
 
 `````swift
