@@ -17,23 +17,23 @@ struct TextInputView: View {
         case .extraSmall:
             return -27
         case .small:
-            return -27 //
+            return -27
         case .medium:
             return -28
         case .large:
-            return -30 //
+            return -30
         case .extraLarge:
-            return -33 //
+            return -33
         case .extraExtraLarge:
-            return -35 //
+            return -35
         case .extraExtraExtraLarge:
-            return -40 //
+            return -40
         case .accessibilityMedium:
-            return -45 //
+            return -45
         case .accessibilityLarge:
-            return -50 //
+            return -50
         case .accessibilityExtraLarge:
-            return -55 // Good
+            return -55
         case .accessibilityExtraExtraLarge:
             return -65 //
         case .accessibilityExtraExtraExtraLarge:
@@ -42,7 +42,6 @@ struct TextInputView: View {
             return -33
         }
     }
-    
     var paddingTop: Double {
         switch sizeCategory {
         case .extraSmall:
@@ -73,7 +72,6 @@ struct TextInputView: View {
             return 25
         }
     }
-    
     init(_ title: String, text: Binding<String>, isSecure: Bool = false) {
         self.title = title
         self._text = text
@@ -100,4 +98,3 @@ struct TextInputView: View {
         .animation(.default, value: text)
     }
 }
-
