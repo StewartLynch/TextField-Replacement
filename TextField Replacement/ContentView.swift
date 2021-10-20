@@ -26,7 +26,6 @@ struct ContentView: View {
                 TextInputView("Password", text: $password, isSecure: true)
             }
             .autocapitalization(.none)
-
             .padding()
             Spacer()
         }
@@ -37,7 +36,7 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-                .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                .previewInterfaceOrientation(.portrait)
         }
     }
 }
